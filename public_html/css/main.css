@@ -1,0 +1,453 @@
+/* .page{
+	padding-top: 115px;
+} */
+#fondo{
+	background-image:url('../img/portada.jpg');  
+	background-size:cover;
+	margin-bottom:0px; 
+	padding:150px 0px; 
+	background-position:center center; 
+	width:100%;  
+	position: relative;
+	background-color: rgba(0, 10, 20, 0.2) !important;
+	background-blend-mode: soft-light;
+}
+.tooltip{
+	position:absolute;
+	z-index:1070;
+	display:block;
+	margin:0;
+	font-style:normal;
+	font-weight:400;
+	line-height:1.5;
+	text-align:left;
+	text-align:start;
+	text-decoration:none;
+	text-shadow:none;
+	text-transform:none;
+	letter-spacing:normal;
+	word-break:normal;
+	word-spacing:normal;
+	white-space:normal;
+	line-break:auto;
+	font-size:.875rem;
+	word-wrap:break-word;
+	opacity:0
+}
+.tooltip.show{
+	opacity:.9
+}
+.page-header-title{
+	color: #fefefe; 
+	font-size: 40px;
+	font-family: "Montserrat-Bold", Arial, sans-serif;
+}
+
+/*navbar*/
+.header{
+	top: 0;
+	position: fixed;
+	width: 100%;
+	z-index: 999;
+}
+
+header .navbar-primary{
+	background: #0c231e!important;
+	padding: 1% 5.5%!important;
+	font-size: 16px !important;
+	height: auto!important;
+}
+
+
+header .navbar-primary .logo_navbar{
+	background-image: url(https://framework-gb.cdn.gob.mx/landing/img/logoheader.svg) !important;
+	top: 0px;
+	height: 50px;
+	margin: 1px auto 0 auto;
+	width: 130px;
+	background-repeat: no-repeat;
+}
+
+header .sub-navbar .logo_navbar{
+	background-image: url('../img/CNBBBJ.svg') !important;
+	top: 0px;
+	height: 50px;
+	margin: 1px auto 0 auto;
+	width: 150px;
+	background-repeat: no-repeat;
+}
+header .navbar-primary .nav-item, header .sub-navbar .nav-item{
+	float: right;
+	line-height: 40px;
+}
+
+header .navbar-primary .nav-item a{
+	padding: 10px 15px;
+	text-decoration: none;
+	color: white;
+	font-size: 16px !important;
+}
+header .sub-navbar .nav-item a{
+	padding: 10px 15px;
+	text-decoration: none;
+	color: #0c231e!important;
+	font-size: 16px !important;
+	text-decoration: none;
+}
+
+header .navbar .navbar-toggle{
+	border: none;
+	position: relative;
+	float: right;
+	margin-right: 15px;
+	padding: 9px 10px;
+	margin-top: 6px;
+	margin-bottom: 6px;
+	background-color: transparent;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+
+header .navbar .navbar-toggle .icon-bar {
+	background-color: #fff;
+	display: block;
+	width: 22px;
+	height: 2px;
+	border-radius: 1px;
+}
+header .navbar-primary .nav-item a:hover, header .sub-navbar .nav-item a:hover{
+	color: var(--color-secundario)!important;
+}
+
+header .navbar-primary > .collapse.show{
+	border-top: 1px solid #d8d8d8;
+
+}
+
+header .navbar-primary .navbar-right{
+	float: right !important;
+	margin-right: -15px;
+}
+.navbar-nav>li>form>button{
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+header .navbar-dark .navbar-brand{
+	padding: 0px;
+}
+
+header .sub-navbar{
+	background: #DBECE3;
+	padding: 1% 5.5% 1% 6.5%!important;
+	font-size: 16px !important;
+	height: auto!important;
+}
+header .sub-navbar .navbar-collapse{
+	background-color: #DBECE3 ;
+}
+header .sub-navbar img{
+	width: 120px;
+}
+
+
+footer{
+	padding-top: 3rem;
+	background: #12322b;
+	background-color: #12322b!important;
+	color: white;
+	font-size: 15px;
+	font-weight: normal;
+	text-decoration: none;
+}
+footer h5{
+	font-size: 22px;
+}
+footer a{
+	color: white;
+	text-decoration: none;
+	font-size: 15px;
+
+}
+footer a:hover{
+	color: #706f6f;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+footer ul{
+	list-style: none;
+	padding: 0px;
+}
+footer ul li{
+	margin: 0 0 2px!important;
+}
+footer .logo_footer{
+	width: 30%;
+	max-width: 30%;
+	margin-bottom: 6%;
+}
+footer .contenedor-padding{
+	padding: 3% 7%;
+}
+
+footer .footer-pleca{
+	background-image: url(https://framework-gb.cdn.gob.mx/landing/img/pleca.svg);
+	background-color: #12322B;
+	background-repeat: repeat-x;
+}
+
+/*contenedor información*/
+.contenedor-informacion{
+	padding: 7rem 0.5rem ;
+}
+.contenedor-informacion .text-title{
+	font-size: 28px;
+	margin-bottom: 15px;
+	font-family: "Montserrat-SemiBold", Arial, sans-serif;
+}
+.contenedor-informacion p{
+	font-size: 20px;
+}
+
+
+/*accesibilidad*/
+#accessibility{
+	height: 0px;
+	z-index: 9999;
+}
+
+#accessibility .menu-btn .fa-2x{
+	font-size: 2.5rem!important;
+}
+#accessibility .menu-slide ul{
+	width: 150px!important;
+}
+.accesibility li .icons{
+	padding: 10px 40px 0px 20px!important;
+}
+#accessibility .menu-slide ul {
+	width: 120px!important;
+	padding: 0px;
+}
+
+/*redes sociales*/
+#socialside .sn-text {
+	font-weight: bold;
+	text-align: right;
+	position: relative;
+	color:  #ffffff;
+}
+
+#socialside a {
+	text-decoration: none;
+}
+#socialside div.button {
+	background-color: #ffffff;
+	color: #2c3e50;
+	border: none;
+	border-radius: 30px;
+	width: 185px;
+	height: 36px;
+	position: fixed;
+	left: -150px;
+	transition: .7s ease;
+	z-index: 3000;
+}
+#socialside #butn1 {
+	top: 60%;
+	background-color: #3b5998; 
+	color: #ffffff
+}
+#socialside #butn1 .img-circle{
+	width: 25px;
+	height: 25px;
+	position: relative;
+	z-index: -30000;
+	float: left;
+	border-radius: 50%;
+	padding: 0px;
+	margin: 0px;
+}
+#socialside #butn2 {
+	top: 65%;
+}
+#socialside #butn2 .img-circle{
+	width: 25px; 
+	height: 25px; 
+	position: relative; 
+	z-index: -30000; 
+	float:left;
+	border-radius: 50%;
+	padding: 0px;
+	margin: 0px;
+}
+#socialside #butn3 {
+	top: 70%;
+}
+#socialside #butn3 .img-circle{
+	width: 25px; 
+	height: 25px; 
+	position: relative; 
+	z-index: -30000; 
+	float:left;
+	border-radius: 50%;
+	padding: 0px;
+	margin: 0px;
+
+}
+#socialside #butn4 {
+	top: 75%;
+}
+#socialside #butn4 .img-circle{
+	width: 25px; 
+	height: 25px; 
+	position: relative; 
+	z-index: -30000; 
+	float:left;
+	border-radius: 50%;
+	padding: 0px;
+	margin: 0px;
+
+}
+#socialside div.button:hover {
+	position: fixed;
+	left: -50px;
+	width: 180px;
+	border-radius: 30px;
+	color: #ffffff;
+}
+#socialside div.button:active {
+	transition: 0s;
+	color: #ecf0f1;
+}
+
+
+/*letter*/
+.font-changer{
+	position: fixed;
+	left: 24px!important;
+	margin-top: 38px;
+	top: 240px !important;
+	z-index: 999;
+}
+.font-changer button {
+	display: block;
+	background: none;
+	box-shadow: 0px 0px 5px 0px rgb(0 0 0 / 20%);
+	border: 1px solid white;
+	outline: 0;
+	border-radius: 5px;
+	width: 35px;
+	height: 35px;
+	text-align: center;
+	font-size: 13px;
+	margin-bottom: 7px;
+	background-color: white !important;
+	font-size: 13px;
+	cursor: pointer;
+
+}
+
+.division{
+	margin-bottom: 10px;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 400px)  {
+	.contenedor-informacion{
+		padding: 2.5rem 3.5rem!important;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.contenedor-informacion{
+		padding: 3.0rem 3.5rem;
+	}
+	
+	/* .page{
+		padding-top: 50px;
+	} */
+	#socialside .col-sm-9 {
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 75%;
+		flex: 0 0 75%;
+		max-width: 75%;
+	}
+	#socialside .col-sm-3 {
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 25%;
+		flex: 0 0 25%;
+		max-width: 25%;
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+	/* .page{
+		padding-top: 50px;
+	} */
+}
+
+@media only screen and (min-width: 768px){
+	
+	footer .logo_footer{
+		width: 80%!important;
+		max-width: 80%!important;
+		
+	}
+}
+
+
+@media only screen and (max-width: 768px) {
+	
+	footer .logo_footer{
+		width: 80%!important;
+		max-width: 80%!important;
+		
+	}
+	header .navbar-primary ul{
+		padding-left: 1rem;
+	}
+	header .logo_footer{
+		margin: 1rem;
+		max-width: 90px; 
+
+	}
+	/* .page-header-title{
+		font-size: 28px;
+	} */
+	footer .contenedor-padding{
+		padding: 2rem 4.2rem;
+	}
+	.menu-container .menu-btn{
+		left: 200px!important;
+	}
+	
+	/* .page{
+		padding-top: 50px;
+	} */
+
+}
+@media only screen and (min-width: 920px) {
+	
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	
+	/* .page{
+		padding-top: 80px;
+	} */
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	
+}
